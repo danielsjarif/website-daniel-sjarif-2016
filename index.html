@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html　lange = "en">
+<head>
+<meta charset = "utf-8" />
+<title>時雨</title>
+<meta name = "viewport" content = "width=divice-width, initial scale = 1.0">
+<link rel = "stylesheet" href = "blueberry.css" />
+<style type = "text/css">
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body {
+	background: #f0f0f0;
+	font: 14px/20px Arial, San-Serif;
+	color: #555;
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	font-size: 180%;
+	line-height: 120%;
+	padding: 5% 0;
+}
+h2 {
+	text-decoration: underline;
+	line-height: 280%;
+	padding: 2%; 
+}
+h3 {
+	line-height: 110%;
+	padding: 5% 0;
+}
+p {
+	padding: 1%;
+}
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+header {
+	background: #405580; 
+	width: 100%;
+	height: 86px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 0.90;
+}
+#logo {
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(http://i.imgur.com/Zv0MYlb.png) no-repeat center;
+}
+nav {
+	float: right;
+	padding: 35px 20px 0;
+}
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(http://www.w3newbie.com/wp-content/uploads/icong) center;
+}
+a:hover#menu-icon {
+	border-radius: 4px 4px 0 0;
+}
+ul {
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+.current {
+	color: #FFF;
+	text-decoration: underline;
+}
+#doc {
+	margin: 40px 0;
+}
+#content {
+	margin: 0 auto;
+	max-width: 1140px;
+	margin-top: 110px;
+}
+.blueberry {
+	max-width: 960px;
+	margin-top: 110px;
+}
+section {
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
+.clear {
+	clear: both;
+}
+article {
+	float: left;
+	margin: 0 auto;
+	width: 50%; 
+	height: auto;
+	padding: 4%;
+}
+aside {
+	float: right;
+	margin: 0 auto;
+	width: 35%; 
+	height: auto;
+	padding: 3%;
+}
+ul.waifu li {
+	padding-left: 3%;
+}
+footer {
+	background: #333333;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.8;
+}
+footer p, footer h3{
+	color: #FFF;
+}
+footer p a {
+	color: #FFF;
+	text-decoration: none;
+}
+ul.social li {
+	display: inline;
+}
+ul.social li img{
+	height: 50px;
+}
+footer.second {
+	border-top: 1px solid #4D4E50;
+	background-color: #333333;
+	max-height: 50px;
+	text-align: center;
+	opacity: 0.8;
+}
+
+</style>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src = "jquery.blueberry.js"></script>
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
+</head>
+<body>
+    <header>
+        <a href="#" id="logo"></a>
+        <nav>
+            <a href="#" id="menu-icon"></a>
+            <ul>        
+            	<li><a href = "#" class = "current">Home</a></li>
+            	<li><a href = "#">About</a></li>
+                <li><a href = "#">Flagship</a></li>
+            	<li><a href = "#">Boats</a></li>
+            	<li><a href = "#">Items</a></li>
+            	<li><a href = "#">Leveling Tips</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id = "doc">
+        <div id = "content">
+        	<div class = "blueberry">
+        		<ul class = "slides">
+        			<li><img src = "http://i.imgur.com/lSo369V.png"></li>
+        			<li><img src = "http://i.imgur.com/6soJcv1.png"></li>
+        			<li><img src = "http://i.imgur.com/fHvf8VI.png"></li>
+        			<li><img src = "http://i.imgur.com/MiL17LN.png"></li>
+        		</ul>
+        	</div>
+        </div>
+    </div>
+    <section>
+    	<img src = "http://vignette1.wikia.nocookie.net/kancolle/images/6/6d/PVP.png/revision/latest/scale-to-width-down/160?cb=20140326001407&format=webp"/>
+    	<h1>Mai Waifus</h1>
+    	<p>Which waifu will truly win my heart?</p>
+    </section>
+    <section>
+    	<img src = "http://vignette2.wikia.nocookie.net/kancolle/images/b/b2/Sortie.png/revision/latest/scale-to-width-down/160?cb=20140326010112&format=webp"/>
+    	<h1>Eligibility</h1>
+    	<p>Which waifu is the most "well equipped"</p>
+    </section>
+    <section>
+    	<img src = "http://vignette3.wikia.nocookie.net/kancolle/images/7/79/KanColleWikiFrontpageQuestsIcon_IntelmanVer.png/revision/latest?cb=20150315125302&format=webp"/>
+    	<h1>Necessity</h1>
+    	<p>Is this really necessary? Skeptics say "Of course!"</p>
+    </section>
+    <div class = "clear"></div>
+    <article>
+    	<img src = "http://i.imgur.com/wfoZLTF.png"/>
+    </article>
+    <aside>
+        <h2>5 Reasons Why 2D > 3D :</h2>
+        <ul class = "reasons">
+        	<li><h3>Guarenteed chocolate on valentines day</h3></li>
+        	<li><h3>They are free for you to shape however you like</h3></li>
+        	<li><h3>They are all most likely a 10/10</h3></li>
+        	<li><h3>They can call you onii-chan any time you want</h3></li>
+        	<li><h3>They are cute (this is important)</h3></li>
+        </ul>
+    </aside>
+    <div class = "clear"></div>
+    <section>
+    	<h1>Work In Progress</h1>
+    	<img src = "http://vignette2.wikia.nocookie.net/kancolle/images/1/17/Type_0_Fighter_Model_52_021_Card.png/revision/latest?cb=20151118231215"/>
+    	<p>WIPWIPWIPWIPWIP</p>
+    </section>
+    <section>
+    	<h1>Work In Progress</h1>
+    	<img src = "http://vignette3.wikia.nocookie.net/kancolle/images/6/63/Reppuu_022_Card.png/revision/latest?cb=20150813111020"/>
+    	<p>WIPWIPWIPWIPWIP</p>
+    </section>
+    <section>
+    	<h1>Work In Progress</h1>
+    	<img src = "http://vignette3.wikia.nocookie.net/kancolle/images/4/4d/Reppuu_Kai_053_Card.png/revision/latest?cb=20150813191458"/>
+    	<p>WIPWIPWIPWIPWIP</p>
+    </section>
+    <footer>
+    	<section>
+    		<h3><b>Daniel Sjarif Waifu Slayer</b></h3>
+    		<p><b>(714)-804-4363</b><br><br>
+    		1 LMU Drive<br>
+    		Los Angeles, CA 90045<br>
+    		dsjarif@lion.lmu.edu<br>
+    	</section>
+    	<section>
+    		<h3>Connect With Us!</h3>
+    		<ul class = "social">
+    			<li><a href = "#" ><img src = "http://www.w3newbie.com/wp-content/uploads/facebook1.png" /></a></li>
+    			<li><a href = "#" ><img src = "http://www.w3newbie.com/wp-content/uploads/googleplus.png" /></a></li>
+    			<li><a href = "#" ><img src = "http://www.w3newbie.com/wp-content/uploads/twitter1.png" /></a></li>
+    			<li><a href = "#" ><img src = "http://www.w3newbie.com/wp-content/uploads/youtube1.png" /></a></li>
+    		</ul>
+    	</section>
+    	<section>
+    		<img src = "http://vignette1.wikia.nocookie.net/kancolle/images/f/f8/Anime_logo_small.png/revision/latest?cb=20141220171412" />
+    	</section>
+    </footer>
+    <footer class = "second" >
+    	<p>©2016 DMM.com / KADOKAWA All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
