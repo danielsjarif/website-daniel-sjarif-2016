@@ -7,5 +7,5 @@ Website project to test our HTML5 and CSS3
 - Will add a slider for the first four images
 - Other pages will include 'about', 'boats', and 'leveling tips'
 - Leveling tips will include 2 more subsections which will be implemented under a drop down menu when you hover over the tab.
-- __All written content is subject to change__
+- All written content is subject to change!!!!
 ````
