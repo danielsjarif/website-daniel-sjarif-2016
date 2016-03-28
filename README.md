@@ -9,3 +9,9 @@ Website project to test our HTML5 and CSS3
 - Leveling tips will include 2 more subsections which will be implemented under a drop down menu when you hover over the tab.
 - All written content is subject to change!!!!
 ````
+
+##3/27/2016
+````
+- Added boats.html, about.html, and levelling.html
+- No content yet, basically just templates.
+````
