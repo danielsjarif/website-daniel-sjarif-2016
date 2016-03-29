@@ -21,5 +21,6 @@ Website project to test our HTML5 and CSS3
 - Connected the subsections to each other, so clicking on them would take you to the selected page. Still nothing on them
 - Made a dropdown feature for levelling tips
 - Changed the picture URLs so that they actually come from my computer
+- uploaded a new folder called images
 - No content updates yet
 ````
