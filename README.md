@@ -23,4 +23,6 @@ Website project to test our HTML5 and CSS3
 - Changed the picture URLs so that they actually come from my computer
 - uploaded a new folder called images
 - No content updates yet
+
+**NOTES** : The website would call to the images from locations within MY PC. I have to figure out how to call the images from general locations. Website looks even more like garbage now.
 ````
