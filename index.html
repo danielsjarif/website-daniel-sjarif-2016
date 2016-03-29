@@ -156,13 +156,51 @@ footer.second {
     text-align: center;
     opacity: 0.8;
 }
+.dropbtn {
+    background-color: #4c3924;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
 </style>
 <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 <script src = "jquery.blueberry.js"></script>
 <script>
 $(window).load(function() {
-	$('.blueberry').blueberry();
+    $('.blueberry').blueberry();
 });
 </script>
 </head>
@@ -172,95 +210,100 @@ $(window).load(function() {
         <nav>
             <a href="#" id="menu-icon"></a>
             <ul>        
-            	<li><a href = "#" class = "current">Home</a></li>
-            	<li><a href = "#">About</a></li>
-            	<li><a href = "#">Boats</a></li>
-            	<li><a href = "#">Items</a></li>
-            	<li><a href = "#">Leveling Tips</a></li>
+                <li><a href = "#" class = "current">Home</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "boats.html">Boats</a></li>
+                <div class = "dropdown">
+                    <button class = "dropbtn">Levelling Tips</button>
+                    <div class = "dropdown-content">
+                        <li><a href = "leveling.html">Levelling Tips</a></li>
+                        <li><a href = "leveling.html">Levelling Destroyers</a></li>
+                        <li><a href = "leveling.html">Levelling Carriers / Battleships</a></li>
+                    </div>
+                </div>
             </ul>
         </nav>
     </header>
     <div id = "doc">
         <div id = "content">
-        	<div class = "blueberry">
-        		<ul class = "slides">
-        			<li><img src = "http://i.imgur.com/lSo369V.png"></li>
-        			<li><img src = "http://i.imgur.com/6soJcv1.png"></li>
-        			<li><img src = "http://i.imgur.com/fHvf8VI.png"></li>
-        			<li><img src = "http://i.imgur.com/MiL17LN.png"></li>
-        		</ul>
-        	</div>
+            <div class = "blueberry">
+                <ul class = "slides">
+                    <li><img src = "\Users\daniel\CMSI\Website\website1\images\titleimg.png"></li>
+                    <li><img src = "\Users\daniel\CMSI\Website\website1\images\titleimg2.png"></li>
+                    <li><img src = "\Users\daniel\CMSI\Website\website1\images\titleimg3.png"></li>
+                    <li><img src = "\Users\daniel\CMSI\Website\website1\images\titleimg4.png"></li>
+                </ul>
+            </div>
         </div>
     </div>
     <section>
-    	<img src = "http://vignette1.wikia.nocookie.net/kancolle/images/6/6d/PVP.png/revision/latest/scale-to-width-down/160?cb=20140326001407&format=webp"/>
-    	<h1>Mai Waifus</h1>
-    	<p>Who is the flagship of my heart?</p>
+        <img src = "\Users\daniel\CMSI\Website\website1\images\PVP.png.webp"/>
+        <h1>Mai Waifus</h1>
+        <p>Which waifu will truly win my heart?</p>
     </section>
     <section>
-    	<img src = "http://vignette2.wikia.nocookie.net/kancolle/images/b/b2/Sortie.png/revision/latest/scale-to-width-down/160?cb=20140326010112&format=webp"/>
-    	<h1>Eligibility</h1>
-    	<p>Which waifu is the most "well equipped"</p>
+        <img src = "\Users\daniel\CMSI\Website\website1\images\Sortie.png.webp"/>
+        <h1>Eligibility</h1>
+        <p>Which waifu is the most "well equipped"</p>
     </section>
     <section>
-    	<img src = "http://vignette3.wikia.nocookie.net/kancolle/images/7/79/KanColleWikiFrontpageQuestsIcon_IntelmanVer.png/revision/latest?cb=20150315125302&format=webp"/>
-    	<h1>Necessity</h1>
-    	<p>Is this really necessary? Skeptics say "Of course!"</p>
+        <img src = "\Users\daniel\CMSI\Website\website1\images\yodo.png"/>
+        <h1>Necessity</h1>
+        <p>Is this really necessary? Skeptics say "Of course!"</p>
     </section>
     <div class = "clear"></div>
     <article>
-    	<img src = "http://i.imgur.com/wfoZLTF.png"/>
+        <img src = "\Users\daniel\CMSI\Website\website1\images\why.png"/>
     </article>
     <aside>
         <h2>5 Reasons Why 2D > 3D :</h2>
         <ul class = "reasons">
-        	<li><h3>Guarenteed chocolate on valentines day</h3></li>
-        	<li><h3>They are free for you to shape however you like</h3></li>
-        	<li><h3>They are all most likely a 10/10</h3></li>
-        	<li><h3>They can call you onii-chan any time you want</h3></li>
-        	<li><h3>They are cute (this is important)</h3></li>
+            <li><h3>Guarenteed chocolate on valentines day</h3></li>
+            <li><h3>They are free for you to shape however you like</h3></li>
+            <li><h3>They are all most likely a 10/10</h3></li>
+            <li><h3>They can call you onii-chan any time you want</h3></li>
+            <li><h3>They are cute (this is important)</h3></li>
         </ul>
     </aside>
     <div class = "clear"></div>
     <section>
-    	<h1>Work In Progress</h1>
-    	<img src = "http://vignette2.wikia.nocookie.net/kancolle/images/1/17/Type_0_Fighter_Model_52_021_Card.png/revision/latest?cb=20151118231215"/>
-    	<p>WIPWIPWIPWIPWIP</p>
+        <h1>Work In Progress</h1>
+        <img src = "\Users\daniel\CMSI\Website\website1\images\model52.png"/>
+        <p>WIPWIPWIPWIPWIP</p>
     </section>
     <section>
-    	<h1>Work In Progress</h1>
-    	<img src = "http://vignette3.wikia.nocookie.net/kancolle/images/6/63/Reppuu_022_Card.png/revision/latest?cb=20150813111020"/>
-    	<p>WIPWIPWIPWIPWIP</p>
+        <h1>Work In Progress</h1>
+        <img src = "\Users\daniel\CMSI\Website\website1\images\reppu.png"/>
+        <p>WIPWIPWIPWIPWIP</p>
     </section>
     <section>
-    	<h1>Work In Progress</h1>
-    	<img src = "http://vignette3.wikia.nocookie.net/kancolle/images/4/4d/Reppuu_Kai_053_Card.png/revision/latest?cb=20150813191458"/>
-    	<p>WIPWIPWIPWIPWIP</p>
+        <h1>Work In Progress</h1>
+        <img src = "\Users\daniel\CMSI\Website\website1\images\reppukai.png"/>
+        <p>WIPWIPWIPWIPWIP</p>
     </section>
     <footer>
-    	<section>
-    		<h3><b>Daniel Sjarif Waifu Slayer</b></h3>
-    		<p><b>(714)-804-4363</b><br><br>
-    		1 LMU Drive<br>
-    		Los Angeles, CA 90045<br>
-    		dsjarif@lion.lmu.edu<br>
-    	</section>
-    	<section>
-    		<h3>Connect With Us!</h3>
-    		<ul class = "social">
-    			<li><a href = "#" ><img src = "http://i.imgur.com/KXYfkJN.png" /></a></li>
-    			<li><a href = "#" ><img src = "http://i.imgur.com/6vunmB4.png" /></a></li>
-    			<li><a href = "#" ><img src = "http://i.imgur.com/0PXmMyV.png" /></a></li>
-    			<li><a href = "#" ><img src = "http://i.imgur.com/zQI30cX.png" /></a></li>
-    		</ul>
-    	</section>
-    	<section>
-    		<img src = "http://vignette1.wikia.nocookie.net/kancolle/images/f/f8/Anime_logo_small.png/revision/latest?cb=20141220171412" />
-    	</section>
+        <section>
+            <h3><b>Daniel Sjarif Waifu Slayer</b></h3>
+            <p><b>(714)-804-4363</b><br><br>
+            1 LMU Drive<br>
+            Los Angeles, CA 90045<br>
+            dsjarif@lion.lmu.edu<br>
+        </section>
+        <section>
+            <h3>Connect With Us!</h3>
+            <ul class = "social">
+                <li><a href = "#" ><img src = "\Users\daniel\CMSI\Website\website1\images\youtube1.png" /></a></li>
+                <li><a href = "#" ><img src = "\Users\daniel\CMSI\Website\website1\images\twitter.png" /></a></li>
+                <li><a href = "#" ><img src = "\Users\daniel\CMSI\Website\website1\images\googleplus.png" /></a></li>
+                <li><a href = "#" ><img src = "\Users\daniel\CMSI\Website\website1\images\facebook.png" /></a></li>
+            </ul>
+        </section>
+        <section>
+            <img src = "\Users\daniel\CMSI\Website\website1\images\kclogo.png" />
+        </section>
     </footer>
     <footer class = "second" >
-    	<p>©2016 DMM.com / KADOKAWA All Rights Reserved.</p>
+        <p>©2016 DMM.com / KADOKAWA All Rights Reserved.</p>
     </footer>
 </body>
 </html>
-
