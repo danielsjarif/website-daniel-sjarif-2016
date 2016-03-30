@@ -195,6 +195,61 @@ footer.second {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+
+/**---------------------PHONE COMPATIBILITY----------------*/
+@media screen and (max-width: 478px) {
+    body {
+        position: absolute;
+    }
+}
+@media screen and (max-width: 740px) {
+    header {
+        position: absolute;
+    }
+    #menu-icon {
+        display: inline-block;
+    }
+    nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 20px;
+        background: #405580;
+        border: 1px solid #FFF;
+        right: 20px;
+        top: 60px;
+        width: 50%;
+        border-radius: 2px 0 2px 2px;
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    nav:hover ul {
+        display: block;
+    }
+    section {
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    article {
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    aside {
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
 </style>
 <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 <script src = "jquery.blueberry.js"></script>
@@ -228,7 +283,7 @@ $(window).load(function() {
         <div id = "content">
             <div class = "blueberry">
                 <ul class = "slides">
-                    <li><img src = "\Users\daniel\CMSI\Website\website1\images\titleimg.png"></li>
+                    <li><img src = "\Users\daniel\CMSI\Website\website1\images\titleimg.png" alt = shigure></li>
                     <li><img src = "\Users\daniel\CMSI\Website\website1\images\titleimg2.png"></li>
                     <li><img src = "\Users\daniel\CMSI\Website\website1\images\titleimg3.png"></li>
                     <li><img src = "\Users\daniel\CMSI\Website\website1\images\titleimg4.png"></li>
