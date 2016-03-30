@@ -23,6 +23,13 @@ Website project to test our HTML5 and CSS3
 - Changed the picture URLs so that they actually come from my computer
 - uploaded a new folder called images
 - No content updates yet
-
 **NOTES** : The website would call to the images from locations within MY PC. I have to figure out how to call the images from general locations. Website looks even more like garbage now.
+````
+
+##3/29/2016
+````
+- Made the website responsive using CSS
+    - When the page is scaled down, a block will show up on the top right corner 
+    - This will theoretically appear on mobile phones.
+- Dropdown menu is messing it up a little. Gotta figure out how to fix that
 ````
