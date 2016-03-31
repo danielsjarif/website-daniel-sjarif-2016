@@ -33,3 +33,6 @@ Website project to test our HTML5 and CSS3
     - This will theoretically appear on mobile phones.
 - Dropdown menu is messing it up a little. Gotta figure out how to fix that
 ````
+
+##3/31/2016
+- Used blueberry sliders to implement sliders to the homepage
