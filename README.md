@@ -35,4 +35,6 @@ Website project to test our HTML5 and CSS3
 ````
 
 ##3/31/2016
+````
 - Used blueberry sliders to implement sliders to the homepage
+````
