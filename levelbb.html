@@ -2,7 +2,7 @@
 <html　lange = "en">
 <head>
 <meta charset = "utf-8" />
-<title>About</title>
+<title>Levelling BB/CA</title>
 <meta name = "viewport" content = "width=divice-width, initial scale = 1.0">
 <link rel = "stylesheet" href = "blueberry.css" />
 <style type = "text/css">
@@ -156,6 +156,45 @@ footer.second {
 	text-align: center;
 	opacity: 0.8;
 }
+.dropbtn {
+    background-color: #4c3924;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
 /**---------------------PHONE COMPATIBILITY----------------*/
 @media screen and (max-width: 478px) {
 	body {
@@ -263,21 +302,28 @@ $(window).load(function() {
             <a href="index.html" id="menu-icon"></a>
             <ul>        
             	<li><a href = "index.html" class = "current">Home</a></li>
-            	<li><a href = "#">About</a></li>
+            	<li><a href = "about.html">About</a></li>
             	<li><a href = "boats.html">Boats</a></li>
             	<div class = "dropdown">
             		<button class = "dropbtn">Levelling Tips</button>
             		<div class = "dropdown-content">
             			<li><a href = "leveling.html">Levelling Tips</a></li>
             			<li><a href = "leveldd.html">Levelling Destroyers/ Light Cruisers</a></li>
-            			<li><a href = "levelbb.html">Levelling Battleships/ Heavy Cruisers</a></li>
+            			<li><a href = "#">Levelling Battleships/ Heavy Cruisers</a></li>
             			<li><a href = "levelcv.html">Levelling Carriers</a></li>
             		</div>
             	</div>
             </ul>
         </nav>
     </header>
-    
+    <article>
+    	<ul class = "imagesintro">
+        <li><img src = "\Users\daniel\CMSI\Website\website1\images\43.png" alt = level></li>
+        <li><img src = "\Users\daniel\CMSI\Website\website1\images\levelingdd.png" alt = level></li>
+        </ul>
+		<iframe width="550" height="345"src="https://www.youtube.com/embed/dE6l8hOXhY8">
+		</iframe>
+    </article>
     <footer>
     	<section>
     		<h3><b>Daniel Sjarif - Waifu Slayer</b></h3>
