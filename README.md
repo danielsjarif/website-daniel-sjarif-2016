@@ -38,3 +38,16 @@ Website project to test our HTML5 and CSS3
 ````
 - Used blueberry sliders to implement sliders to the homepage
 ````
+
+##4/1/2016
+````
+- Updated pathing for several of the new and old files
+- Added pages for leveling DD (Destroyer), CL (Light Cruiser), BB (Battleship), CA (Heavy Cruiser), and CV (Carrier).
+- Updated the pages with unformatted content (VIDEOS ARE NOT MINE) for all the leveling pages.
+- Created images in leveling.html that linked to other pages in the website
+- Corrected titles
+- Many aesthetic changes (i.e. changed color for dropdown menu, etc).
+````
+
+
+
