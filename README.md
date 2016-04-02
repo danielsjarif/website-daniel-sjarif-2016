@@ -47,6 +47,8 @@ Website project to test our HTML5 and CSS3
 - Created images in leveling.html that linked to other pages in the website
 - Corrected titles
 - Many aesthetic changes (i.e. changed color for dropdown menu, etc).
+
+**NOTES**: Still some compatibility issues with non-chrome web browsers.
 ````
 
 
