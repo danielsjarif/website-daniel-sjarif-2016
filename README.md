@@ -23,7 +23,7 @@ Website project to test our HTML5 and CSS3
 - Changed the picture URLs so that they actually come from my computer
 - uploaded a new folder called images
 - No content updates yet
-**NOTES** : The website would call to the images from locations within MY PC. I have to figure out how to call the images from general locations. Website looks even more like garbage now.
+**NOTES** : The website would call to the images from locations within MY PC. I have to figure out how to call the images from general locations. Website looks even more like garbage now. (FIXED!)
 ````
 
 ##3/29/2016
@@ -51,5 +51,10 @@ Website project to test our HTML5 and CSS3
 **NOTES**: Still some compatibility issues with non-chrome web browsers.
 ````
 
+##4/6/2016
+````
+- Image pathing has been fixed
+    - Images locations are now relative
+````
 
 
