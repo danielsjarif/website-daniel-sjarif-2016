@@ -56,7 +56,7 @@ Website project to test our HTML5 and CSS3
 - Image pathing has been fixed
     - Images locations are now relative
 ````
-##4/6/2016
+##4/11/2016
 ````
 - Changed webp images to png
 - Added style.css
